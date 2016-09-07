@@ -5,7 +5,8 @@ setup(
     packages = find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
     scripts = ['fileset'],
 
-    install_requires = ['python>=3.0'],
+    install_requires = [
+        ],
 
     # metadata for upload to PyPI
     author = "hilojack",
